@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="pageBackground" format="reference" />
+    <attr name="titleStyle" format="reference" />
+    <attr name="subTitleStyle" format="reference" />
+    <attr name="regularTextStyle" format="reference" />
+    <attr name="buttonStyle" format="reference" />
+    <attr name="editTextStyle" format="reference" />
+    <attr name="spinner" format="reference" />
+</resources>

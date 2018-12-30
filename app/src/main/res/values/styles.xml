@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LightTheme" parent="@android:style/Theme.Light">
+    </style>
+
+    <style name="BlackTheme" parent="@android:style/Theme.Black">
+    </style>
+
+    <style name="actionBarTitleText"
+        parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <!-- LIGHT THEME START -->
+
+    <style name="background_light">
+        <item name="android:background">@drawable/light_theme_bg</item>
+    </style>
+
+    <style name="text_regular_light">
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+    </style>
+
+    <style name="text_title_light">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/text_title_text_size</item>
+    </style>
+
+    <style name="text_sub_title_light">
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textSize">@dimen/text_sub_text_size</item>
+    </style>
+
+    <style name="button_light">
+        <item name="android:textAllCaps">false</item>
+        <item name="colorControlHighlight">@android:color/holo_red_light</item>
+        <item name="android:background">@android:color/holo_orange_light</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textSize">@dimen/text_sub_text_size</item>
+    </style>
+
+    <style name="edit_text_light">
+        <item name="colorControlNormal">@android:color/holo_red_light</item>
+        <item name="colorControlActivated">@android:color/holo_orange_light</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">@dimen/text_regular_text_size</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textStyle">bold|italic</item>
+    </style>
+
+    <style name="action_bar_light" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg_wh</item>
+        <item name="background">@color/actionbar_bg_wh</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:titleTextStyle">@style/actionBarTitleText</item>
+        <item name="titleTextStyle">@style/actionBarTitleText</item>
+    </style>
+
+    <!-- LIGHT THEME END -->
+
+    <!-- DARK THEME START -->
+
+    <style name="background_dark">
+        <item name="android:background">@drawable/dark_theme_bg</item>
+    </style>
+
+    <style name="text_regular_dark" parent = "text_regular_light">
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="text_title_dark" parent = "text_title_light">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="text_sub_title_dark" parent = "text_sub_title_light">
+        <item name="android:textColor">@android:color/holo_blue_dark</item>
+    </style>
+
+    <style name="button_dark" parent = "button_light">
+        <item name="colorControlHighlight">@android:color/holo_blue_light</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="edit_text_dark" parent="edit_text_light">
+        <item name="colorControlNormal">@android:color/holo_blue_light</item>
+        <item name="colorControlActivated">@android:color/holo_blue_dark</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="spinner_light">
+        <item name="android:background">@drawable/spinner_wh_background</item>
+        <item name="android:textColor">@color/text_color_light</item>
+    </style>
+
+    <style name="spinner_dark" parent="spinner_light">
+        <item name="android:textColor">@color/text_color_dark</item>
+    </style>
+
+    <style name="action_bar_dark" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/actionbar_bg_dk</item>
+        <item name="background">@color/actionbar_bg_dk</item>
+        <item name="android:titleTextStyle">@style/actionBarTitleText</item>
+        <item name="titleTextStyle">@style/actionBarTitleText</item>
+    </style>
+
+    <!-- DARK THEME END -->
+
+</resources>

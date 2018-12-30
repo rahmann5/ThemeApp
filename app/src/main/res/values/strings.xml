@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ThemeApp</string>
+    <string name="theme_settings">Change Theme:</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="forgot">Forgot Password?</string>
+    <string name="settings">Settings</string>
+</resources>
